@@ -56,18 +56,7 @@ vjs.ControlBar = vjs.Component.extend({
 
 vjs.ControlBar.prototype.options_ = {
   loadEvent: 'play',
-  children: {
-    'playToggle': {},
-    'currentTimeDisplay': {},
-    'timeDivider': {},
-    'durationDisplay': {},
-    'remainingTimeDisplay': {},
-    'progressControl': {},
-    'fullscreenToggle': {},
-    'volumeControl': {},
-    'muteToggle': {}
-    // 'volumeMenuButton': {}
-  }
+  children: {}
 };
 
 vjs.ControlBar.prototype.createEl = function(){

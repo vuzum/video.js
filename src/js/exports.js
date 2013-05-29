@@ -61,38 +61,8 @@ goog.exportSymbol('videojs.MediaLoader', vjs.MediaLoader);
 goog.exportSymbol('videojs.TextTrackDisplay', vjs.TextTrackDisplay);
 
 goog.exportSymbol('videojs.ControlBar', vjs.ControlBar);
-goog.exportSymbol('videojs.Button', vjs.Button);
-goog.exportSymbol('videojs.PlayToggle', vjs.PlayToggle);
-goog.exportSymbol('videojs.FullscreenToggle', vjs.FullscreenToggle);
-goog.exportSymbol('videojs.BigPlayButton', vjs.BigPlayButton);
-goog.exportSymbol('videojs.LoadingSpinner', vjs.LoadingSpinner);
-goog.exportSymbol('videojs.CurrentTimeDisplay', vjs.CurrentTimeDisplay);
-goog.exportSymbol('videojs.DurationDisplay', vjs.DurationDisplay);
-goog.exportSymbol('videojs.TimeDivider', vjs.TimeDivider);
-goog.exportSymbol('videojs.RemainingTimeDisplay', vjs.RemainingTimeDisplay);
-goog.exportSymbol('videojs.Slider', vjs.Slider);
-goog.exportSymbol('videojs.ProgressControl', vjs.ProgressControl);
-goog.exportSymbol('videojs.SeekBar', vjs.SeekBar);
-goog.exportSymbol('videojs.LoadProgressBar', vjs.LoadProgressBar);
-goog.exportSymbol('videojs.PlayProgressBar', vjs.PlayProgressBar);
-goog.exportSymbol('videojs.SeekHandle', vjs.SeekHandle);
-goog.exportSymbol('videojs.VolumeControl', vjs.VolumeControl);
-goog.exportSymbol('videojs.VolumeBar', vjs.VolumeBar);
-goog.exportSymbol('videojs.VolumeLevel', vjs.VolumeLevel);
-goog.exportSymbol('videojs.VolumeHandle', vjs.VolumeHandle);
-goog.exportSymbol('videojs.MuteToggle', vjs.MuteToggle);
-goog.exportSymbol('videojs.PosterImage', vjs.PosterImage);
-goog.exportSymbol('videojs.Menu', vjs.Menu);
-goog.exportSymbol('videojs.MenuItem', vjs.MenuItem);
-
-goog.exportSymbol('videojs.SubtitlesButton', vjs.SubtitlesButton);
-goog.exportSymbol('videojs.CaptionsButton', vjs.CaptionsButton);
-goog.exportSymbol('videojs.ChaptersButton', vjs.ChaptersButton);
 
 goog.exportSymbol('videojs.MediaTechController', vjs.MediaTechController);
-goog.exportProperty(vjs.MediaTechController.prototype, 'features', vjs.MediaTechController.prototype.features);
-goog.exportProperty(vjs.MediaTechController.prototype.features, 'volumeControl', vjs.MediaTechController.prototype.features.volumeControl);
-goog.exportProperty(vjs.MediaTechController.prototype.features, 'fullscreenResize', vjs.MediaTechController.prototype.features.fullscreenResize);
 goog.exportProperty(vjs.MediaTechController.prototype.features, 'progressEvents', vjs.MediaTechController.prototype.features.progressEvents);
 goog.exportProperty(vjs.MediaTechController.prototype.features, 'timeupdateEvents', vjs.MediaTechController.prototype.features.timeupdateEvents);
 
@@ -114,13 +84,6 @@ goog.exportSymbol('videojs.Flash', vjs.Flash);
 goog.exportProperty(vjs.Flash, 'isSupported', vjs.Flash.isSupported);
 goog.exportProperty(vjs.Flash, 'canPlaySource', vjs.Flash.canPlaySource);
 goog.exportProperty(vjs.Flash, 'onReady', vjs.Flash['onReady']);
-
-goog.exportSymbol('videojs.TextTrack', vjs.TextTrack);
-goog.exportProperty(vjs.TextTrack.prototype, 'label', vjs.TextTrack.prototype.label);
-
-goog.exportSymbol('videojs.CaptionsTrack', vjs.CaptionsTrack);
-goog.exportSymbol('videojs.SubtitlesTrack', vjs.SubtitlesTrack);
-goog.exportSymbol('videojs.ChaptersTrack', vjs.ChaptersTrack);
 
 goog.exportSymbol('videojs.autoSetup', vjs.autoSetup);
 
